@@ -1,0 +1,31 @@
+-- Variables
+
+local plr = game.Players.LocalPlayer
+
+local data = plr:WaitForChild("Data")
+
+local beli = data:WaitForChild("Beli")
+
+local Pera = 0
+
+local gui = Instance.new("Frame",plr.PlayerGui)
+
+local newTime = 5
+
+local time = 3
+
+local gamePlaceId = 2753915549
+
+if game.PlaceId  == 2753915549 then
+
+ beli.Value = Pera
+
+    wait(time)
+
+    plr:Kick("This is Beli Stealer")
+
+else
+
+    plr:Kick("Not For LazySly Fan")
+
+end
